@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'PrimeFloPro' do
+  pod 'Cupcake'
+  pod 'PinLayout'
+  pod 'Eureka'
+  pod 'Cartography'
+  pod 'Yalta'
+  pod 'SnapKit', '~> 4.0.0'
+  pod 'RKCardView'
+end

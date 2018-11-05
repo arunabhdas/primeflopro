@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ARUFOAndSHUTTLE" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AQK-oH-z2O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kov-XV-Wym">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="97Y-og-egd">
+                                <rect key="frame" x="57" y="587" width="261" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-5W-UBK">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="50"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="lhR-7i-7qA"/>
+                                            <constraint firstAttribute="width" constant="128" id="x2m-c0-nBR"/>
+                                        </constraints>
+                                        <state key="normal" image="Shuttle-icon"/>
+                                        <connections>
+                                            <action selector="shuttleButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="hS8-cM-p2S"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wR-GF-Yf4">
+                                        <rect key="frame" x="133" y="0.0" width="128" height="50"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="5yR-oQ-npZ"/>
+                                            <constraint firstAttribute="width" constant="128" id="pw3-rq-0TL"/>
+                                            <constraint firstAttribute="height" constant="50" id="sD7-ZJ-vGl"/>
+                                        </constraints>
+                                        <state key="normal" image="ufo-icon"/>
+                                        <connections>
+                                            <action selector="ufoButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="YQu-sW-bU2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaH-DF-scs">
+                                <rect key="frame" x="320" y="30" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="7ha-gG-aLs"/>
+                                    <constraint firstAttribute="height" constant="25" id="wnR-6v-I0g"/>
+                                </constraints>
+                                <state key="normal" image="delete"/>
+                                <connections>
+                                    <action selector="removeObject:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Kag-Gj-4gu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="97Y-og-egd" firstAttribute="leading" secondItem="ldg-Wk-6E6" secondAttribute="leading" constant="57" id="4db-wT-dSH"/>
+                            <constraint firstAttribute="trailing" secondItem="kov-XV-Wym" secondAttribute="trailing" id="ClK-lt-fdC"/>
+                            <constraint firstItem="kov-XV-Wym" firstAttribute="leading" secondItem="ldg-Wk-6E6" secondAttribute="leading" id="EB8-c3-MCR"/>
+                            <constraint firstItem="ldg-Wk-6E6" firstAttribute="trailing" secondItem="HaH-DF-scs" secondAttribute="trailing" constant="30" id="FCO-mq-m8Y"/>
+                            <constraint firstItem="ldg-Wk-6E6" firstAttribute="bottom" secondItem="97Y-og-egd" secondAttribute="bottom" constant="30" id="GNh-97-8Lw"/>
+                            <constraint firstItem="kov-XV-Wym" firstAttribute="top" secondItem="AQK-oH-z2O" secondAttribute="top" id="QwB-4N-hYA"/>
+                            <constraint firstItem="kov-XV-Wym" firstAttribute="bottom" secondItem="ldg-Wk-6E6" secondAttribute="bottom" id="c3d-nA-LuU"/>
+                            <constraint firstItem="ldg-Wk-6E6" firstAttribute="bottom" secondItem="HaH-DF-scs" secondAttribute="bottom" constant="612" id="pG6-KG-ThI"/>
+                            <constraint firstItem="ldg-Wk-6E6" firstAttribute="trailing" secondItem="97Y-og-egd" secondAttribute="trailing" constant="57" id="wnx-JS-fZN"/>
+                            <constraint firstItem="HaH-DF-scs" firstAttribute="top" secondItem="ldg-Wk-6E6" secondAttribute="top" constant="10" id="xxk-Ot-tsP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ldg-Wk-6E6"/>
+                    </view>
+                    <connections>
+                        <outlet property="hiddenButton" destination="HaH-DF-scs" id="4R7-HU-nYO"/>
+                        <outlet property="sceneView" destination="kov-XV-Wym" id="ufG-81-MZz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Shuttle-icon" width="50" height="50"/>
+        <image name="delete" width="25" height="25"/>
+        <image name="ufo-icon" width="50" height="50"/>
+    </resources>
+</document>

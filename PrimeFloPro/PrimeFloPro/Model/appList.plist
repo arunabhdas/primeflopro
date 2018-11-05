@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>sample_1</string>
+			<key>title</key>
+			<string>Test Data 1</string>
+			<key>category</key>
+			<string>Electrical</string>
+			<key>rating</key>
+			<integer>3</integer>
+			<key>commentCount</key>
+			<integer>6053</integer>
+			<key>price</key>
+			<string></string>
+			<key>iap</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>sample_2</string>
+			<key>title</key>
+			<string>Test Data 2</string>
+			<key>category</key>
+			<string>Plumbing</string>
+			<key>rating</key>
+			<integer>4</integer>
+			<key>commentCount</key>
+			<integer>11</integer>
+			<key>price</key>
+			<string></string>
+			<key>iap</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>sample_3</string>
+			<key>title</key>
+			<string>Test Data 3</string>
+			<key>category</key>
+			<string>Carpentry</string>
+			<key>rating</key>
+			<integer>3</integer>
+			<key>commentCount</key>
+			<integer>2052</integer>
+			<key>price</key>
+			<string></string>
+			<key>iap</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>sample_4</string>
+			<key>title</key>
+			<string>Test Data 4</string>
+			<key>category</key>
+			<string>HVAC</string>
+			<key>rating</key>
+			<real>3.5</real>
+			<key>commentCount</key>
+			<integer>38</integer>
+			<key>price</key>
+			<string></string>
+			<key>iap</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>sample_5</string>
+			<key>title</key>
+			<string>Test Data 5</string>
+			<key>category</key>
+			<string>Cleaning Services</string>
+			<key>rating</key>
+			<integer>3</integer>
+			<key>commentCount</key>
+			<integer>33</integer>
+			<key>price</key>
+			<string></string>
+			<key>iap</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>sample_6</string>
+			<key>title</key>
+			<string>Test Data 6</string>
+			<key>category</key>
+			<string>Carpentry</string>
+			<key>rating</key>
+			<real>4.5</real>
+			<key>commentCount</key>
+			<integer>814</integer>
+			<key>price</key>
+			<string>2.99</string>
+			<key>iap</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>sample_7</string>
+			<key>title</key>
+			<string>Test Data 7</string>
+			<key>category</key>
+			<string>Transportation</string>
+			<key>rating</key>
+			<real>4.5</real>
+			<key>commentCount</key>
+			<integer>869</integer>
+			<key>price</key>
+			<string>0.99</string>
+			<key>iap</key>
+			<true/>
+		</dict>
+	</array>
+</plist>

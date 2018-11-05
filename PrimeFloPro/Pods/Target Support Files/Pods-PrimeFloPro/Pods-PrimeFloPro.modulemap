@@ -1,0 +1,6 @@
+framework module Pods_PrimeFloPro {
+  umbrella header "Pods-PrimeFloPro-umbrella.h"
+
+  export *
+  module * { export * }
+}

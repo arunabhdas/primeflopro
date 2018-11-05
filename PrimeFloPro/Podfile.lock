@@ -1,0 +1,40 @@
+PODS:
+  - Cartography (3.0.2)
+  - Cupcake (1.2.2)
+  - Eureka (4.1.1)
+  - PinLayout (1.7.4)
+  - RKCardView (0.1.0)
+  - SnapKit (4.0.0)
+  - Yalta (0.6)
+
+DEPENDENCIES:
+  - Cartography
+  - Cupcake
+  - Eureka
+  - PinLayout
+  - RKCardView
+  - SnapKit (~> 4.0.0)
+  - Yalta
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cartography
+    - Cupcake
+    - Eureka
+    - PinLayout
+    - RKCardView
+    - SnapKit
+    - Yalta
+
+SPEC CHECKSUMS:
+  Cartography: 231190d7d0b3107ce8d67c54189f059a509b3760
+  Cupcake: 969645a83f52f3e79c3582cb34c61f0f7e847f26
+  Eureka: b88fb930e42c79f8c03c373d0fcdc28c1d6c50ed
+  PinLayout: 7903960df1061eeebd393690286df73e002d9b20
+  RKCardView: 80c09d833031dd8506eb4dcbaa820038065c2519
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Yalta: 38516ec43fa80ebd7331581ed596aceced623b05
+
+PODFILE CHECKSUM: 6f99dfc99d7824bcc3314103f35a7b2958bcbb0e
+
+COCOAPODS: 1.5.3
